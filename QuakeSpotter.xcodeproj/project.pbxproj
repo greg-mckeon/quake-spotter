@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370DF35D1BE00356004E29EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DF35C1BE00356004E29EC /* AppDelegate.swift */; };
+		370DF35F1BE00356004E29EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DF35E1BE00356004E29EC /* ViewController.swift */; };
+		370DF3621BE00356004E29EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370DF3601BE00356004E29EC /* Main.storyboard */; };
+		370DF3651BE00356004E29EC /* QuakeSpotter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 370DF3631BE00356004E29EC /* QuakeSpotter.xcdatamodeld */; };
+		370DF3671BE00356004E29EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370DF3661BE00356004E29EC /* Assets.xcassets */; };
+		370DF36A1BE00356004E29EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370DF3681BE00356004E29EC /* LaunchScreen.storyboard */; };
+		370DF3751BE00356004E29EC /* QuakeSpotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DF3741BE00356004E29EC /* QuakeSpotterTests.swift */; };
+		370DF3801BE00356004E29EC /* QuakeSpotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DF37F1BE00356004E29EC /* QuakeSpotterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370DF3711BE00356004E29EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370DF3511BE00355004E29EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370DF3581BE00356004E29EC;
+			remoteInfo = QuakeSpotter;
+		};
+		370DF37C1BE00356004E29EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370DF3511BE00355004E29EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370DF3581BE00356004E29EC;
+			remoteInfo = QuakeSpotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370DF3591BE00356004E29EC /* QuakeSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370DF35C1BE00356004E29EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		370DF35E1BE00356004E29EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		370DF3611BE00356004E29EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		370DF3641BE00356004E29EC /* QuakeSpotter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuakeSpotter.xcdatamodel; sourceTree = "<group>"; };
+		370DF3661BE00356004E29EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370DF3691BE00356004E29EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		370DF36B1BE00356004E29EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370DF3701BE00356004E29EC /* QuakeSpotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeSpotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370DF3741BE00356004E29EC /* QuakeSpotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeSpotterTests.swift; sourceTree = "<group>"; };
+		370DF3761BE00356004E29EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370DF37B1BE00356004E29EC /* QuakeSpotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeSpotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370DF37F1BE00356004E29EC /* QuakeSpotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeSpotterUITests.swift; sourceTree = "<group>"; };
+		370DF3811BE00356004E29EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370DF3561BE00356004E29EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DF36D1BE00356004E29EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DF3781BE00356004E29EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370DF3501BE00355004E29EC = {
+			isa = PBXGroup;
+			children = (
+				370DF35B1BE00356004E29EC /* QuakeSpotter */,
+				370DF3731BE00356004E29EC /* QuakeSpotterTests */,
+				370DF37E1BE00356004E29EC /* QuakeSpotterUITests */,
+				370DF35A1BE00356004E29EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370DF35A1BE00356004E29EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370DF3591BE00356004E29EC /* QuakeSpotter.app */,
+				370DF3701BE00356004E29EC /* QuakeSpotterTests.xctest */,
+				370DF37B1BE00356004E29EC /* QuakeSpotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370DF35B1BE00356004E29EC /* QuakeSpotter */ = {
+			isa = PBXGroup;
+			children = (
+				370DF35C1BE00356004E29EC /* AppDelegate.swift */,
+				370DF35E1BE00356004E29EC /* ViewController.swift */,
+				370DF3601BE00356004E29EC /* Main.storyboard */,
+				370DF3661BE00356004E29EC /* Assets.xcassets */,
+				370DF3681BE00356004E29EC /* LaunchScreen.storyboard */,
+				370DF36B1BE00356004E29EC /* Info.plist */,
+				370DF3631BE00356004E29EC /* QuakeSpotter.xcdatamodeld */,
+			);
+			path = QuakeSpotter;
+			sourceTree = "<group>";
+		};
+		370DF3731BE00356004E29EC /* QuakeSpotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				370DF3741BE00356004E29EC /* QuakeSpotterTests.swift */,
+				370DF3761BE00356004E29EC /* Info.plist */,
+			);
+			path = QuakeSpotterTests;
+			sourceTree = "<group>";
+		};
+		370DF37E1BE00356004E29EC /* QuakeSpotterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				370DF37F1BE00356004E29EC /* QuakeSpotterUITests.swift */,
+				370DF3811BE00356004E29EC /* Info.plist */,
+			);
+			path = QuakeSpotterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370DF3581BE00356004E29EC /* QuakeSpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370DF3841BE00356004E29EC /* Build configuration list for PBXNativeTarget "QuakeSpotter" */;
+			buildPhases = (
+				370DF3551BE00356004E29EC /* Sources */,
+				370DF3561BE00356004E29EC /* Frameworks */,
+				370DF3571BE00356004E29EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuakeSpotter;
+			productName = QuakeSpotter;
+			productReference = 370DF3591BE00356004E29EC /* QuakeSpotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		370DF36F1BE00356004E29EC /* QuakeSpotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370DF3871BE00356004E29EC /* Build configuration list for PBXNativeTarget "QuakeSpotterTests" */;
+			buildPhases = (
+				370DF36C1BE00356004E29EC /* Sources */,
+				370DF36D1BE00356004E29EC /* Frameworks */,
+				370DF36E1BE00356004E29EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370DF3721BE00356004E29EC /* PBXTargetDependency */,
+			);
+			name = QuakeSpotterTests;
+			productName = QuakeSpotterTests;
+			productReference = 370DF3701BE00356004E29EC /* QuakeSpotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		370DF37A1BE00356004E29EC /* QuakeSpotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370DF38A1BE00356004E29EC /* Build configuration list for PBXNativeTarget "QuakeSpotterUITests" */;
+			buildPhases = (
+				370DF3771BE00356004E29EC /* Sources */,
+				370DF3781BE00356004E29EC /* Frameworks */,
+				370DF3791BE00356004E29EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370DF37D1BE00356004E29EC /* PBXTargetDependency */,
+			);
+			name = QuakeSpotterUITests;
+			productName = QuakeSpotterUITests;
+			productReference = 370DF37B1BE00356004E29EC /* QuakeSpotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370DF3511BE00355004E29EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = grm19;
+				TargetAttributes = {
+					370DF3581BE00356004E29EC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					370DF36F1BE00356004E29EC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 370DF3581BE00356004E29EC;
+					};
+					370DF37A1BE00356004E29EC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 370DF3581BE00356004E29EC;
+					};
+				};
+			};
+			buildConfigurationList = 370DF3541BE00355004E29EC /* Build configuration list for PBXProject "QuakeSpotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370DF3501BE00355004E29EC;
+			productRefGroup = 370DF35A1BE00356004E29EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370DF3581BE00356004E29EC /* QuakeSpotter */,
+				370DF36F1BE00356004E29EC /* QuakeSpotterTests */,
+				370DF37A1BE00356004E29EC /* QuakeSpotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370DF3571BE00356004E29EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DF36A1BE00356004E29EC /* LaunchScreen.storyboard in Resources */,
+				370DF3671BE00356004E29EC /* Assets.xcassets in Resources */,
+				370DF3621BE00356004E29EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DF36E1BE00356004E29EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DF3791BE00356004E29EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370DF3551BE00356004E29EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DF35F1BE00356004E29EC /* ViewController.swift in Sources */,
+				370DF35D1BE00356004E29EC /* AppDelegate.swift in Sources */,
+				370DF3651BE00356004E29EC /* QuakeSpotter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DF36C1BE00356004E29EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DF3751BE00356004E29EC /* QuakeSpotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DF3771BE00356004E29EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DF3801BE00356004E29EC /* QuakeSpotterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370DF3721BE00356004E29EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370DF3581BE00356004E29EC /* QuakeSpotter */;
+			targetProxy = 370DF3711BE00356004E29EC /* PBXContainerItemProxy */;
+		};
+		370DF37D1BE00356004E29EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370DF3581BE00356004E29EC /* QuakeSpotter */;
+			targetProxy = 370DF37C1BE00356004E29EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		370DF3601BE00356004E29EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370DF3611BE00356004E29EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		370DF3681BE00356004E29EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370DF3691BE00356004E29EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		370DF3821BE00356004E29EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		370DF3831BE00356004E29EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370DF3851BE00356004E29EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuakeSpotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.QuakeSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		370DF3861BE00356004E29EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuakeSpotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.QuakeSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		370DF3881BE00356004E29EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuakeSpotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.QuakeSpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuakeSpotter.app/QuakeSpotter";
+			};
+			name = Debug;
+		};
+		370DF3891BE00356004E29EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuakeSpotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.QuakeSpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuakeSpotter.app/QuakeSpotter";
+			};
+			name = Release;
+		};
+		370DF38B1BE00356004E29EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuakeSpotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.QuakeSpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuakeSpotter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		370DF38C1BE00356004E29EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuakeSpotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.QuakeSpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuakeSpotter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370DF3541BE00355004E29EC /* Build configuration list for PBXProject "QuakeSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DF3821BE00356004E29EC /* Debug */,
+				370DF3831BE00356004E29EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370DF3841BE00356004E29EC /* Build configuration list for PBXNativeTarget "QuakeSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DF3851BE00356004E29EC /* Debug */,
+				370DF3861BE00356004E29EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		370DF3871BE00356004E29EC /* Build configuration list for PBXNativeTarget "QuakeSpotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DF3881BE00356004E29EC /* Debug */,
+				370DF3891BE00356004E29EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		370DF38A1BE00356004E29EC /* Build configuration list for PBXNativeTarget "QuakeSpotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DF38B1BE00356004E29EC /* Debug */,
+				370DF38C1BE00356004E29EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		370DF3631BE00356004E29EC /* QuakeSpotter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				370DF3641BE00356004E29EC /* QuakeSpotter.xcdatamodel */,
+			);
+			currentVersion = 370DF3641BE00356004E29EC /* QuakeSpotter.xcdatamodel */;
+			path = QuakeSpotter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 370DF3511BE00355004E29EC /* Project object */;
+}
